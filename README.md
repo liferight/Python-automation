@@ -13,3 +13,5 @@ psutil
 
 
 dnspython
+
+windows
