@@ -18,3 +18,5 @@ dnspython_cname.py 域名CNAME
 dns_monitor.py  监控域名80端口，适用于dns轮训
 diffmonitor.py  对比字符串直接打印
 diffmonitor_html.py  对比字符串输出到HTML格式
+
+diff_nginx.py 对比nginx配置文件 python diff_nginx.py nginx_1.conf nginx_2.conf >> test.html
