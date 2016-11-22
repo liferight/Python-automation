@@ -4,20 +4,20 @@
 import smtplib
 import string
 
-HOST = "smtp.daojia.com.cn"
+HOST = "smtp.xxx"
 SUBJECT = "test email form zyn"
-TO = "673749764@qq.com"
-FROM = "zhangyanan@daojia.com.cn"
+TO = "xxx@qq.com"
+FROM = "xxxx@xx.com"
 text = "test"
 BODY = string.join(( 
-		"FROM: %s" % FROM,
-		"TO: %s" % TO,
-		"Subject: %s" SUBJECT,
+		"From: %s" % FROM,
+		"To: %s" % TO,
+		"Subject: %s" % SUBJECT,
 		"",
-		test), "\r\n")
+		text), "\r\n")
 server = smtplib.SMTP()
 server.connect(HOST,"25")
 server.starttls()
-server.login("zhangyanan@daojia.com.cn","yanan1989")
+server.login("xxx@xx.com","123456")
 server.sendmail(FROM, [TO], BODY)
 server.quit()
