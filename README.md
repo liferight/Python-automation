@@ -20,3 +20,6 @@ diffmonitor.py  对比字符串直接打印
 diffmonitor_html.py  对比字符串输出到HTML格式
 
 diff_nginx.py 对比nginx配置文件 python diff_nginx.py nginx_1.conf nginx_2.conf >> test.html
+
+
+diff_filecmp.py  校验源与备份目录的差异，使用filecmp模块的left_only、diff_files方法递归获取源目录的更新选项，再通过shutil.copyfile、os.makedirs方法对更新项进行复制，最终保持一致。
