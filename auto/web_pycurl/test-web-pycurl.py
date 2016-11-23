@@ -14,7 +14,7 @@ c.setopt(pycurl.TIMEOUT, 5) #定义请求超时时间
 c.setopt(pycurl.NOPROGRESS, 1) #屏蔽下载进度条
 c.setopt(pycurl.FORBID_REUSE, 1) #完成交互后强制断开连接，不重用
 c.setopt(pycurl.MAXREDIRS, 1) #指定http重定向的最大数为1
-c.setopt(pycurl.DNS_CACHE_TIMEOUT, 30) 设置保存DNS信息的时间为30秒
+c.setopt(pycurl.DNS_CACHE_TIMEOUT, 30) #设置保存DNS信息的时间为30秒
 #创建一个文件对象，以“wb”方式打开，用来存储返回的http头部以及页面内容
 indexfile = open(os.path.dirname(os.path.realpath(__file__))+"/content.txt","wb")
 c.setopt(pycurl.WRITEHEADER, indexfile) #将返回的http header定向到indexfile文件对象
