@@ -36,7 +36,7 @@ TOTAL_TIME = c.getinfo(c.TOTAL_TIME) #获取传输的总时间
 HTTP_CODE = c.getinfo(c.HTTP_CODE) #获取http状态码
 SIZE_DOWNLOAD = c.getinfo(c.SIZE_DOWNLOAD) #获取下载数据包的大小
 HEADER_SIZE = c.getinfo(c.HEADER_SIZE)#获取http头部大小
-SPEED_DOWNLOAD = c.getinfo(c.SPEED_DOWNLOAD)#获取平均下载速度
+SPEED_DOWNLOAD = c.getinfo(c.SPEED_DOWNLOAD)#获取平均下载的速度
 
 print "HTTP:状态码：%s" % (HTTP_CODE)
 print "DNS解析时间：%.2f ms" %(NAMELOOKUP_TIME*1000)
