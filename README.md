@@ -18,6 +18,8 @@
 
 8.XlsxWriter模块制作数据报表excel
 
+9.nmap端口扫描
+
 #auto各个脚本信息
 IPy_IPinformation.py  获取ip详细信息
 dnspython.py 域名解析
