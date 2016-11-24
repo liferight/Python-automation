@@ -16,6 +16,8 @@
 
 7.探测web服务质量pycurl
 
+8.XlsxWriter模块制作数据报表excel
+
 #auto各个脚本信息
 IPy_IPinformation.py  获取ip详细信息
 dnspython.py 域名解析
