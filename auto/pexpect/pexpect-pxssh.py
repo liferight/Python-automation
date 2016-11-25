@@ -9,7 +9,7 @@ try:
 	hostname = raw_input('hostname:')
 	username = raw_input('username:')
 	password = getpass.getpass('please input password:')
-	s.login (hostname, username, password)
+	s.login(hostname,username,password)
 	s.sendline ('uptime')
 	s.prompt()
 	print s.before

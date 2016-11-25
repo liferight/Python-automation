@@ -20,6 +20,9 @@
 
 9.nmap端口扫描
 
+10.paramiko 系统批量运维管理器,核心组件SSHClient 和SFTPClient
+
+
 #auto各个脚本信息
 IPy_IPinformation.py  获取ip详细信息
 dnspython.py 域名解析
