@@ -6,7 +6,7 @@ from fabric.api import *
 
 env.user='root'
 env.hosts=['192.168.0.181']
-env.password='s6vd154d4DFukFAR'
+env.password='123456'
 
 @runs_once
 def input_raw():
