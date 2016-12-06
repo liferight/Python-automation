@@ -1,24 +1,24 @@
 HTTP/1.1 200 OK
-Date: Wed, 23 Nov 2016 07:46:24 GMT
+Date: Tue, 06 Dec 2016 08:58:02 GMT
 Content-Type: text/html; charset=utf-8
 Transfer-Encoding: chunked
 Connection: Keep-Alive
 Vary: Accept-Encoding
-Set-Cookie: BAIDUID=7CF0DD3F9DE076FB5D80F74FCF284DE5:FG=1; expires=Thu, 31-Dec-37 23:55:55 GMT; max-age=2147483647; path=/; domain=.baidu.com
-Set-Cookie: BIDUPSID=7CF0DD3F9DE076FB5D80F74FCF284DE5; expires=Thu, 31-Dec-37 23:55:55 GMT; max-age=2147483647; path=/; domain=.baidu.com
-Set-Cookie: PSTM=1479887184; expires=Thu, 31-Dec-37 23:55:55 GMT; max-age=2147483647; path=/; domain=.baidu.com
+Set-Cookie: BAIDUID=A2D6B336DDC3A4B4521719BB5081F0AC:FG=1; expires=Thu, 31-Dec-37 23:55:55 GMT; max-age=2147483647; path=/; domain=.baidu.com
+Set-Cookie: BIDUPSID=A2D6B336DDC3A4B4521719BB5081F0AC; expires=Thu, 31-Dec-37 23:55:55 GMT; max-age=2147483647; path=/; domain=.baidu.com
+Set-Cookie: PSTM=1481014682; expires=Thu, 31-Dec-37 23:55:55 GMT; max-age=2147483647; path=/; domain=.baidu.com
 Set-Cookie: BDSVRTM=0; path=/
 Set-Cookie: BD_HOME=0; path=/
-Set-Cookie: H_PS_PSSID=1449_21098_17001_21455_21409_21553_21378_21193_21306; path=/; domain=.baidu.com
+Set-Cookie: H_PS_PSSID=1464_19033_21711_21123_17001_21455_21409_21554_21618_21592; path=/; domain=.baidu.com
 P3P: CP=" OTI DSP COR IVA OUR IND COM "
 Cache-Control: private
-Cxy_all: baidu+5ddcf9bef23056154a8168fe95c28e86
-Expires: Wed, 23 Nov 2016 07:45:55 GMT
+Cxy_all: baidu+e5ff9f6100224be0016b6ca83bac518f
+Expires: Tue, 06 Dec 2016 08:57:57 GMT
 X-Powered-By: HPHP
 Server: BWS/1.1
 X-UA-Compatible: IE=Edge,chrome=1
 BDPAGETYPE: 1
-BDQID: 0x83a3592200004171
+BDQID: 0xe7fb22bf00009ff9
 BDUSERID: 0
 
 <!DOCTYPE html>
@@ -446,7 +446,7 @@ function h(obj){
         
 
 
-<script>if(window.bds&&bds.util&&bds.util.setContainerWidth){bds.util.setContainerWidth();}</script><div id="head"><div class="head_wrapper"><div class="s_form"><div class="s_form_wrapper"><div id="lg"><img hidefocus="true" src="//www.baidu.com/img/bd_logo1.png" width="270" height="129"></div><a href="/" id="result_logo" onmousedown="return c({'fm':'tab','tab':'logo'})"><img src="//www.baidu.com/img/baidu_jgylogo3.gif" alt="到百度首页" title="到百度首页"></a><form id="form" name="f" action="/s" class="fm"><input type="hidden" name="ie" value="utf-8"><input type="hidden" name="f" value="8"><input type="hidden" name="rsv_bp" value="1"><input type="hidden" name="rsv_idx" value="1"><input type=hidden name=ch value=""><input type=hidden name=tn value="baidu"><input type=hidden name=bar value=""><span class="bg s_ipt_wr"><input id="kw" name="wd" class="s_ipt" value="" maxlength="255" autocomplete="off"></span><span class="bg s_btn_wr"><input type="submit" id="su" value="百度一下" class="bg s_btn"></span><span class="tools"><span id="mHolder"><div id="mCon"><span>输入法</span></div><ul id="mMenu"><li><a href="javascript:;" name="ime_hw">手写</a></li><li><a href="javascript:;" name="ime_py">拼音</a></li><li class="ln"></li><li><a href="javascript:;" name="ime_cl">关闭</a></li></ul></span></span><input type="hidden" name="rn" value=""><input type="hidden" name="oq" value=""><input type="hidden" name="rsv_pq" value="841eccfe00003e64"><input type="hidden" name="rsv_t" value="de66tQKasOnyeWKeacE+SDzavt8qt0zKSnsin0wub2dkugc0jITVibaMNf0"><input type="hidden" name="rqlang" value="cn"></form><div id="m"></div></div></div><div id="u"><a class="toindex" href="/">百度首页</a><a href="javascript:;" name="tj_settingicon" class="pf">设置<i class="c-icon c-icon-triangle-down"></i></a><a href="https://passport.baidu.com/v2/?login&tpl=mn&u=http%3A%2F%2Fwww.baidu.com%2F" name="tj_login" class="lb" onclick="return false;">登录</a></div><div id="u1"><a href="http://www.nuomi.com/?cid=002540" name="tj_trnuomi" class="mnav">糯米</a><a href="http://news.baidu.com" name="tj_trnews" class="mnav">新闻</a><a href="http://www.hao123.com" name="tj_trhao123" class="mnav">hao123</a><a href="http://map.baidu.com" name="tj_trmap" class="mnav">地图</a><a href="http://v.baidu.com" name="tj_trvideo" class="mnav">视频</a><a href="http://tieba.baidu.com" name="tj_trtieba" class="mnav">贴吧</a><a href="https://passport.baidu.com/v2/?login&amp;tpl=mn&amp;u=http%3A%2F%2Fwww.baidu.com%2F" name="tj_login" class="lb" onclick="return false;">登录</a><a href="http://www.baidu.com/gaoji/preferences.html" name="tj_settingicon" class="pf">设置</a><a href="http://www.baidu.com/more/" name="tj_briicon" class="bri" style="display: block;">更多产品</a></div></div></div>
+<script>if(window.bds&&bds.util&&bds.util.setContainerWidth){bds.util.setContainerWidth();}</script><div id="head"><div class="head_wrapper"><div class="s_form"><div class="s_form_wrapper"><div id="lg"><img hidefocus="true" src="//www.baidu.com/img/bd_logo1.png" width="270" height="129"></div><a href="/" id="result_logo" onmousedown="return c({'fm':'tab','tab':'logo'})"><img src="//www.baidu.com/img/baidu_jgylogo3.gif" alt="到百度首页" title="到百度首页"></a><form id="form" name="f" action="/s" class="fm"><input type="hidden" name="ie" value="utf-8"><input type="hidden" name="f" value="8"><input type="hidden" name="rsv_bp" value="1"><input type="hidden" name="rsv_idx" value="1"><input type=hidden name=ch value=""><input type=hidden name=tn value="baidu"><input type=hidden name=bar value=""><span class="bg s_ipt_wr"><input id="kw" name="wd" class="s_ipt" value="" maxlength="255" autocomplete="off"></span><span class="bg s_btn_wr"><input type="submit" id="su" value="百度一下" class="bg s_btn"></span><span class="tools"><span id="mHolder"><div id="mCon"><span>输入法</span></div><ul id="mMenu"><li><a href="javascript:;" name="ime_hw">手写</a></li><li><a href="javascript:;" name="ime_py">拼音</a></li><li class="ln"></li><li><a href="javascript:;" name="ime_cl">关闭</a></li></ul></span></span><input type="hidden" name="rn" value=""><input type="hidden" name="oq" value=""><input type="hidden" name="rsv_pq" value="e30ae2e50000a969"><input type="hidden" name="rsv_t" value="15f9bi91dmY6xw8P3giFjJzomVqXg9IexDn3USg59dH/5JxJFN+pp4kPqww"><input type="hidden" name="rqlang" value="cn"></form><div id="m"></div></div></div><div id="u"><a class="toindex" href="/">百度首页</a><a href="javascript:;" name="tj_settingicon" class="pf">设置<i class="c-icon c-icon-triangle-down"></i></a><a href="https://passport.baidu.com/v2/?login&tpl=mn&u=http%3A%2F%2Fwww.baidu.com%2F" name="tj_login" class="lb" onclick="return false;">登录</a></div><div id="u1"><a href="http://www.nuomi.com/?cid=002540" name="tj_trnuomi" class="mnav">糯米</a><a href="http://news.baidu.com" name="tj_trnews" class="mnav">新闻</a><a href="http://www.hao123.com" name="tj_trhao123" class="mnav">hao123</a><a href="http://map.baidu.com" name="tj_trmap" class="mnav">地图</a><a href="http://v.baidu.com" name="tj_trvideo" class="mnav">视频</a><a href="http://tieba.baidu.com" name="tj_trtieba" class="mnav">贴吧</a><a href="https://passport.baidu.com/v2/?login&amp;tpl=mn&amp;u=http%3A%2F%2Fwww.baidu.com%2F" name="tj_login" class="lb" onclick="return false;">登录</a><a href="http://www.baidu.com/gaoji/preferences.html" name="tj_settingicon" class="pf">设置</a><a href="http://www.baidu.com/more/" name="tj_briicon" class="bri" style="display: block;">更多产品</a></div></div></div>
 
 
 
@@ -491,12 +491,12 @@ var bds={
         templateName:"",
         sugHost : "http://suggestion.baidu.com/su",
         query : "",
-        qid : "841eccfe00003e64",
+        qid : "e30ae2e50000a969",
         cid : "0",
-        sid : "1456_21422_17942_21103_17001_21454_21408_21553_21377_21191_20719",
-        indexSid : "1456_21422_17942_21103_17001_21454_21408_21553_21377_21191_20719",
+        sid : "1424_12897_21112_21306_21455_21408_21554_21670_21593",
+        indexSid : "1424_12897_21112_21306_21455_21408_21554_21670_21593",
         stoken : "",
-        serverTime : "1479887155",
+        serverTime : "1481014677",
         user : "",
         username : "",
         userid : "0",
@@ -504,8 +504,8 @@ var bds={
         useFavo : "",
         pinyin : "",
         favoOn : "",
-        cookie : {"BAIDUID":"18FEA68492FD4FDDC7BF9CA7883EBC8E:FG=1","BIDUPSID":"18FEA68492FD4FDDC7BF9CA7883EBC8E","PSTM":"1434440550","pgv_pvi":"4832115712","H_PS_PSSID":"1456_21422_17942_21103_17001_21454_21408_21553_21377_21191_20719","BDSVRTM":"6","BD_HOME":"0"},
-        userAgent : "test connect",
+        cookie : null,
+        userAgent : "MobileAsset/1.1",
                 curResultNum:"0",
         rightResultExist:false,
         protectNum:0,
@@ -522,7 +522,7 @@ var bds={
         ishome : 1,
         flagTranslateResult:0,
         globalLogFlag:0
-	,encTn:'de66tQKasOnyeWKeacE+SDzavt8qt0zKSnsin0wub2dkugc0jITVibaMNf0'    }
+	,encTn:'15f9bi91dmY6xw8P3giFjJzomVqXg9IexDn3USg59dH/5JxJFN+pp4kPqww'    }
 };
 
 
@@ -708,15 +708,15 @@ $(window).on("load",function() {
 
 </script>
 
-<script type="text/javascript">var Cookie={set:function(e,t,o,i,s,a){document.cookie=e+"="+(a?t:escape(t))+(s?"; expires="+s.toGMTString():"")+(i?"; path="+i:"; path=/")+(o?"; domain="+o:"")},get:function(e,t){var o=document.cookie.match(new RegExp("(^| )"+e+"=([^;]*)(;|$)"));return null!=o?unescape(o[2]):t},clear:function(e,t,o){this.get(e)&&(document.cookie=e+"="+(t?"; path="+t:"; path=/")+(o?"; domain="+o:"")+";expires=Fri, 02-Jan-1970 00:00:00 GMT")}};!function(){function save(e){var t=[];for(tmpName in options)options.hasOwnProperty(tmpName)&&"duRobotState"!==tmpName&&t.push('"'+tmpName+'":"'+options[tmpName]+'"');
-var o="{"+t.join(",")+"}";bds.comm.personalData?$.ajax({url:"//www.baidu.com/ups/submit/addtips/?product=ps&tips="+encodeURIComponent(o)+"&_r="+(new Date).getTime(),success:function(){writeCookie(),"function"==typeof e&&e()}}):(writeCookie(),"function"==typeof e&&setTimeout(e,0))}function set(e,t){options[e]=t}function get(e){return options[e]}function writeCookie(){if(options.hasOwnProperty("sugSet")){var e="0"==options.sugSet?"0":"3";clearCookie("sug"),Cookie.set("sug",e,document.domain,"/",expire30y)
-}if(options.hasOwnProperty("sugStoreSet")){var e=0==options.sugStoreSet?"0":"1";clearCookie("sugstore"),Cookie.set("sugstore",e,document.domain,"/",expire30y)}if(options.hasOwnProperty("isSwitch")){var t={0:"2",1:"0",2:"1"},e=t[options.isSwitch];clearCookie("ORIGIN"),Cookie.set("ORIGIN",e,document.domain,"/",expire30y)}if(options.hasOwnProperty("imeSwitch")){var e=options.imeSwitch;clearCookie("bdime"),Cookie.set("bdime",e,document.domain,"/",expire30y)}}function writeBAIDUID(){var e,t,o,i=Cookie.get("BAIDUID");
-/FG=(\d+)/.test(i)&&(t=RegExp.$1),/SL=(\d+)/.test(i)&&(o=RegExp.$1),/NR=(\d+)/.test(i)&&(e=RegExp.$1),options.hasOwnProperty("resultNum")&&(e=options.resultNum),options.hasOwnProperty("resultLang")&&(o=options.resultLang),Cookie.set("BAIDUID",i.replace(/:.*$/,"")+("undefined"!=typeof o?":SL="+o:"")+("undefined"!=typeof e?":NR="+e:"")+("undefined"!=typeof t?":FG="+t:""),".baidu.com","/",expire30y,!0)}function clearCookie(e){Cookie.clear(e,"/"),Cookie.clear(e,"/",document.domain),Cookie.clear(e,"/","."+document.domain),Cookie.clear(e,"/",".baidu.com")
-}function reset(e){options=defaultOptions,save(e)}var defaultOptions={sugSet:1,sugStoreSet:1,isSwitch:1,isJumpHttps:1,imeSwitch:0,resultNum:10,skinOpen:1,resultLang:0,duRobotState:"000"},options={},tmpName,expire30y=new Date;expire30y.setTime(expire30y.getTime()+94608e7);try{if(bds&&bds.comm&&bds.comm.personalData){if("string"==typeof bds.comm.personalData&&(bds.comm.personalData=eval("("+bds.comm.personalData+")")),!bds.comm.personalData)return;for(tmpName in bds.comm.personalData)defaultOptions.hasOwnProperty(tmpName)&&bds.comm.personalData.hasOwnProperty(tmpName)&&"SUCCESS"==bds.comm.personalData[tmpName].ErrMsg&&(options[tmpName]=bds.comm.personalData[tmpName].value)
+<script type="text/javascript">var Cookie={set:function(t,e,o,i,s,a){document.cookie=t+"="+(a?e:escape(e))+(s?"; expires="+s.toGMTString():"")+(i?"; path="+i:"; path=/")+(o?"; domain="+o:"")},get:function(t,e){var o=document.cookie.match(new RegExp("(^| )"+t+"=([^;]*)(;|$)"));return null!=o?unescape(o[2]):e},clear:function(t,e,o){this.get(t)&&(document.cookie=t+"="+(e?"; path="+e:"; path=/")+(o?"; domain="+o:"")+";expires=Fri, 02-Jan-1970 00:00:00 GMT")}};!function(){function save(t){var e=[];for(tmpName in options)options.hasOwnProperty(tmpName)&&"duRobotState"!==tmpName&&e.push('"'+tmpName+'":"'+options[tmpName]+'"');
+var o="{"+e.join(",")+"}";bds.comm.personalData?$.ajax({url:"//www.baidu.com/ups/submit/addtips/?product=ps&tips="+encodeURIComponent(o)+"&_r="+(new Date).getTime(),success:function(){writeCookie(),"function"==typeof t&&t()}}):(writeCookie(),"function"==typeof t&&setTimeout(t,0))}function set(t,e){options[t]=e}function get(t){return options[t]}function writeCookie(){if(options.hasOwnProperty("sugSet")){var t="0"==options.sugSet?"0":"3";clearCookie("sug"),Cookie.set("sug",t,document.domain,"/",expire30y)
+}if(options.hasOwnProperty("sugStoreSet")){var t=0==options.sugStoreSet?"0":"1";clearCookie("sugstore"),Cookie.set("sugstore",t,document.domain,"/",expire30y)}if(options.hasOwnProperty("isSwitch")){var e={0:"2",1:"0",2:"1"},t=e[options.isSwitch];clearCookie("ORIGIN"),Cookie.set("ORIGIN",t,document.domain,"/",expire30y)}if(options.hasOwnProperty("imeSwitch")){var t=options.imeSwitch;clearCookie("bdime"),Cookie.set("bdime",t,document.domain,"/",expire30y)}}function writeBAIDUID(){var t,e,o,i=Cookie.get("BAIDUID");
+/FG=(\d+)/.test(i)&&(e=RegExp.$1),/SL=(\d+)/.test(i)&&(o=RegExp.$1),/NR=(\d+)/.test(i)&&(t=RegExp.$1),options.hasOwnProperty("resultNum")&&(t=options.resultNum),options.hasOwnProperty("resultLang")&&(o=options.resultLang),Cookie.set("BAIDUID",i.replace(/:.*$/,"")+("undefined"!=typeof o?":SL="+o:"")+("undefined"!=typeof t?":NR="+t:"")+("undefined"!=typeof e?":FG="+e:""),".baidu.com","/",expire30y,!0)}function clearCookie(t){Cookie.clear(t,"/"),Cookie.clear(t,"/",document.domain),Cookie.clear(t,"/","."+document.domain),Cookie.clear(t,"/",".baidu.com")
+}function reset(t){options=defaultOptions,save(t)}var defaultOptions={sugSet:1,sugStoreSet:1,isSwitch:1,isJumpHttps:1,imeSwitch:0,resultNum:10,skinOpen:1,resultLang:0,duRobotState:"000"},options={},tmpName,expire30y=new Date;expire30y.setTime(expire30y.getTime()+94608e7);try{if(bds&&bds.comm&&bds.comm.personalData){if("string"==typeof bds.comm.personalData&&(bds.comm.personalData=eval("("+bds.comm.personalData+")")),!bds.comm.personalData)return;for(tmpName in bds.comm.personalData)defaultOptions.hasOwnProperty(tmpName)&&bds.comm.personalData.hasOwnProperty(tmpName)&&"SUCCESS"==bds.comm.personalData[tmpName].ErrMsg&&(options[tmpName]=bds.comm.personalData[tmpName].value)
 }try{parseInt(options.resultNum)||delete options.resultNum,parseInt(options.resultLang)||"0"==options.resultLang||delete options.resultLang}catch(e){}writeCookie(),"sugSet"in options||(options.sugSet=3!=Cookie.get("sug",3)?0:1),"sugStoreSet"in options||(options.sugStoreSet=Cookie.get("sugstore",0));var BAIDUID=Cookie.get("BAIDUID");"resultNum"in options||(options.resultNum=/NR=(\d+)/.test(BAIDUID)&&RegExp.$1?parseInt(RegExp.$1):10),"resultLang"in options||(options.resultLang=/SL=(\d+)/.test(BAIDUID)&&RegExp.$1?parseInt(RegExp.$1):0),"isSwitch"in options||(options.isSwitch=2==Cookie.get("ORIGIN",0)?0:1==Cookie.get("ORIGIN",0)?2:1),"imeSwitch"in options||(options.imeSwitch=Cookie.get("bdime",0))
-}catch(e){}window.UPS={writeBAIDUID:writeBAIDUID,reset:reset,get:get,set:set,save:save}}(),function(){var e="http://s1.bdstatic.com/r/www/cache/static/plugins/every_cookie_ef4e767.js";("Mac68K"==navigator.platform||"MacPPC"==navigator.platform||"Macintosh"==navigator.platform||"MacIntel"==navigator.platform)&&(e="http://s1.bdstatic.com/r/www/cache/static/plugins/every_cookie_mac_82990d4.js"),setTimeout(function(){$.ajax({url:e,cache:!0,dataType:"script"})},0);var t=navigator&&navigator.userAgent?navigator.userAgent:"",o=document&&document.cookie?document.cookie:"",i=!!(t.match(/(msie [2-8])/i)||t.match(/windows.*safari/i)&&!t.match(/chrome/i)||t.match(/(linux.*firefox)/i)||t.match(/Chrome\/29/i)||t.match(/mac os x.*firefox/i)||o.match(/\bISSW=1/)||0==UPS.get("isSwitch"));
-bds&&bds.comm&&(bds.comm.supportis=!i,bds.comm.isui=!0),window.__restart_confirm_timeout=!0,window.__confirm_timeout=8e3,window.__disable_is_guide=!0,window.__disable_swap_to_empty=!0,window.__switch_add_mask=!0;var s="http://s1.bdstatic.com/r/www/cache/static/global/js/all_async_search_6ef95eb.js",a="/script";document.write("<script src='"+s+"'><"+a+">"),bds.comm.newindex&&$(window).on("index_off",function(){$('<div class="c-tips-container" id="c-tips-container"></div>').insertAfter("#wrapper"),window.__sample_dynamic_tab&&$("#s_tab").remove()
-}),t.match(/(msie 6)/i)||$(function(){setTimeout(function(){$.ajax({url:"http://s1.bdstatic.com/r/www/cache/static/baiduia/baiduia_de45d61.js",cache:!0,dataType:"script"})},0)}),bds.comm&&bds.comm.ishome&&Cookie.get("H_PS_PSSID")&&(bds.comm.indexSid=Cookie.get("H_PS_PSSID"))}();</script>
+}catch(e){}window.UPS={writeBAIDUID:writeBAIDUID,reset:reset,get:get,set:set,save:save}}(),function(){var t="http://s1.bdstatic.com/r/www/cache/static/plugins/every_cookie_ef4e767.js";("Mac68K"==navigator.platform||"MacPPC"==navigator.platform||"Macintosh"==navigator.platform||"MacIntel"==navigator.platform)&&(t="http://s1.bdstatic.com/r/www/cache/static/plugins/every_cookie_mac_82990d4.js"),setTimeout(function(){$.ajax({url:t,cache:!0,dataType:"script"})},0);var e=navigator&&navigator.userAgent?navigator.userAgent:"",o=document&&document.cookie?document.cookie:"",i=!!(e.match(/(msie [2-8])/i)||e.match(/windows.*safari/i)&&!e.match(/chrome/i)||e.match(/(linux.*firefox)/i)||e.match(/Chrome\/29/i)||e.match(/mac os x.*firefox/i)||o.match(/\bISSW=1/)||0==UPS.get("isSwitch"));
+bds&&bds.comm&&(bds.comm.supportis=!i,bds.comm.isui=!0),window.__restart_confirm_timeout=!0,window.__confirm_timeout=8e3,window.__disable_is_guide=!0,window.__disable_swap_to_empty=!0,window.__switch_add_mask=!0;var s="http://s1.bdstatic.com/r/www/cache/static/global/js/all_async_search_5886e10.js",a="/script";document.write("<script src='"+s+"'><"+a+">"),bds.comm.newindex&&$(window).on("index_off",function(){$('<div class="c-tips-container" id="c-tips-container"></div>').insertAfter("#wrapper"),window.__sample_dynamic_tab&&$("#s_tab").remove()
+}),e.match(/(msie 6)/i)||$(function(){setTimeout(function(){$.ajax({url:"http://s1.bdstatic.com/r/www/cache/static/baiduia/baiduia_de45d61.js",cache:!0,dataType:"script"})},0)}),bds.comm&&bds.comm.ishome&&Cookie.get("H_PS_PSSID")&&(bds.comm.indexSid=Cookie.get("H_PS_PSSID"))}();</script>
 
 
 
