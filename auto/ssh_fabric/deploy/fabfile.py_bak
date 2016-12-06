@@ -1,0 +1,74 @@
+#!/usr/bin/env python
+# coding:utf-8
+
+from fabric.api import run, env, task, settings, parallel, runs_once, local, execute, roles
+from fabric.contrib.project import rsync_project
+import os
+import sys
+import ConfigParser
+
+conf_path = '/data/ops/deploy/deploy.conf'
+
+conf = ConfigParser.ConfigParser()
+conf.read(conf_path)
+
+env.disable_known_hosts = True
+
+env.user = 'www'
+
+env.roledefs = {
+    'prod': conf.options("prod"),
+    'pre': conf.options("pre"),
+    'test': conf.options("test")
+}
+
+
+@task
+def set_env(e):
+    env.hosts = conf.options(e)
+
+
+@runs_once
+def check_dir(path):
+    with settings(warn_only=True):
+        if not os.path.exists(path):
+            print "没有本地目录 %s" % path
+            sys.exit(1)
+
+
+@runs_once
+def reload_local_php():
+    local('sudo service php-fpm reload')
+
+
+def rsync_dir(local_dir, remote_dir):
+    rsync_project(local_dir=local_dir, remote_dir=remote_dir, delete=True, default_opts="-av",
+                  ssh_opts="-o PubkeyAuthentication=yes -o stricthostkeychecking=no")
+
+
+def rm_tp_runtime():
+    with settings(user='root', password='123456'):
+        run('rm -rf /data/code/framework_new/ThinkPHP/Runtime/*')
+
+
+def deploy_code(local_dir, remote_dir):
+    rsync_dir(local_dir, remote_dir)
+    rm_tp_runtime()
+    # reload_php()
+
+
+@task
+def deploy(local_dir, remote_dir):
+    check_dir(local_dir)
+    if not remote_dir.startswith("/data/code"):
+        print u"远程路径错误"
+        sys.exit(1)
+    if local_dir[-1] != "/": local_dir = local_dir + "/"
+    deploy_code(local_dir, remote_dir)
+    # reload_local_php()
+
+
+@task
+@parallel
+def reload_php():
+    run('sudo service php-fpm reload')
