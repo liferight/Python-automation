@@ -28,4 +28,4 @@ def set_env(e):
 
 @task
 def hostname_status():
-    run('hostname')
+    run('uptime')
