@@ -12,6 +12,6 @@
  * 9.nmap端口扫描
  * 10.paramiko 系统批量运维管理器,核心组件SSHClient 和SFTPClient
 
-##python监控脚本
+## python监控脚本
  * docker监控
-
+ * curl 私有仓库镜像
